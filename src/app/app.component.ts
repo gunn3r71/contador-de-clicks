@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'contador-de-clicks';
+  title:string = 'Contador de clicks';
+  clicks:number = 0;
+
+  public AdicionarClicks():void {
+      this.clicks++;
+  }
+
+  public RemoverClicks():void {
+      this.clicks--;
+  }
 }

@@ -1,0 +1,23 @@
+#btnRemove{
+    background-color: red;
+    border-radius: 5px;
+}
+
+#btnAdd{
+    background-color: rgb(76, 245, 76);
+    border-radius: 5px;
+}
+
+#container {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(172, 201, 255);
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#container button {
+    color: white;
+    width: 150px;
+}
